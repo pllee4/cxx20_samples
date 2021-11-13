@@ -5,7 +5,9 @@ on:
 
 jobs:
   build:
-    runs-on: pllee4/ubuntu-ci:18.04-C20
+    runs-on: ubuntu-18.04
+    container: 
+      image: pllee4/ubuntu-ci:18.04-C20
     steps:
       - uses: actions/checkout@v2
       - name: Build
