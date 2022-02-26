@@ -1,2 +1,2 @@
-# add_subdirectory(simple_module)
+add_subdirectory(simple_module)
 add_subdirectory(test_func)
