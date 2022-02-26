@@ -4,7 +4,15 @@ on:
   [push, pull_request]
 
 jobs:
-  build:
+  bionic-build:
+    runs-on: ubuntu-18.04
+    container: 
+      image: pllee4/ubuntu-ci:18.04-C20
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: mkdir build && cd build && cmake .. && cmake --build .
+  focal-build:
     runs-on: ubuntu-20.04
     container: 
       image: pllee4/ubuntu-ci:20.04-C20
