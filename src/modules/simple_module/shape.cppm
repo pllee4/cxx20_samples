@@ -11,7 +11,7 @@ export module shape;
 export class Shape {
  public:
    Shape(int width, int height) : width_(width), height_(height) {}
-   int GetArea() { return 0; }
+   int GetArea() { return (width_ * height_); }
 
  private:
    int width_;
