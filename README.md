@@ -4,7 +4,7 @@
 
 ## Dependencies
 - g++ 11 is required for c++20.
-- Please refer [docker image](https://github.com/pllee4/docker/blob/master/ubuntu-ci/Dockerfile.18.04-C20) for the requirement of environment.
+- Please refer [docker image](https://github.com/pllee4/docker/blob/master/ubuntu-ci/Dockerfile.20.04-C20) for the requirement of environment.
 
 ## Possible Issues
 If you encounter the issue as below
