@@ -1,0 +1,2 @@
+add_executable(constexpr_virtual main.cpp)
+target_compile_features(constexpr_virtual PRIVATE cxx_std_20)
