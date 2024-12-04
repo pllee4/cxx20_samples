@@ -1,1 +1,2 @@
+add_subdirectory(constinit)
 add_subdirectory(consteval)
