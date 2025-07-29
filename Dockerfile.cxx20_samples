@@ -15,8 +15,6 @@ RUN mkdir -p /home/${USER}/ws/build
 
 WORKDIR /home/${USER}/ws
 
-USER ${USER}
-
 COPY . /home/${USER}/ws/
 
 ENTRYPOINT [ "/bin/bash"]
