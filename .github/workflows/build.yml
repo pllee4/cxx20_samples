@@ -11,7 +11,7 @@ jobs:
       - name: Build
         run: mkdir build && cd build && cmake .. && cmake --build .
   focal-build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     container: 
       image: pllee4/ubuntu-ci:20.04-C20
     steps:
