@@ -1,0 +1,2 @@
+add_executable(designated_initializer main.cpp)
+target_compile_features(designated_initializer PRIVATE cxx_std_20)

@@ -1,5 +1,6 @@
 add_subdirectory(modules)
 add_subdirectory(constexpr_virtual)
+add_subdirectory(designated_initializer)
 add_subdirectory(others)
 add_subdirectory(ranges)
 add_subdirectory(span)
