@@ -1,2 +1,3 @@
 add_subdirectory(constinit)
 add_subdirectory(consteval)
+add_subdirectory(explicit_bool)
